@@ -1,0 +1,9 @@
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.centered{
+    justify-content: space-around;
+    align-items: center;
+}

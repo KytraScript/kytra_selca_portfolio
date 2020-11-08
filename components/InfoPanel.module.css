@@ -1,0 +1,14 @@
+.ks_panel{
+    position: relative;
+    background-color: rgba(241, 114, 161, 0.31);
+    margin: 20px;
+    width: 60%;
+    height: 360px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 4px rgba(165, 165, 165, 0.77);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}

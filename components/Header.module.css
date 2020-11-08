@@ -1,0 +1,27 @@
+.ks_header {
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    margin-bottom: 20px;
+    background-color: #B39BC8;
+    box-shadow: 0 1px 3px #808080;
+    font-family: Amatic, sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.centered{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature_text {
+    font-size: 56px;
+}
