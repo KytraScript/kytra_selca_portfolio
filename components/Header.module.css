@@ -3,9 +3,10 @@
     height: 75px;
     position: sticky;
     margin-bottom: 20px;
-    background-color: #B39BC8;
+    background-color: #CF8AE9;
     box-shadow: 0 1px 3px #808080;
     font-family: Amatic, sans-serif;
+    border-bottom: 2px solid white;
 }
 
 .row {
@@ -22,6 +23,16 @@
     align-items: center;
 }
 
+.spaceBetween{
+    justify-content: space-between;
+    align-items: center;
+}
+
 .feature_text {
     font-size: 56px;
+    text-shadow: white 1px 1px;
+}
+
+.socialBtns{
+    margin-right: 100px;
 }
