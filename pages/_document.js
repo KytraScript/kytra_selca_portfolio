@@ -19,6 +19,12 @@ class MyDocument extends Document {
                         as="font"
                         crossOrigin=""
                     />
+                    <link
+                        rel="preload"
+                        href="../public/ka1.ttf"
+                        as="font"
+                        crossOrigin=""
+                    />
                 </Head>
                 <body>
                 <Main />

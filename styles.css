@@ -5,3 +5,12 @@
     font-weight: 400;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "ka1";
+    src: url("./public/ka1.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
