@@ -1,0 +1,19 @@
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.centered{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.floating_nav{
+    position: fixed;
+    top: 116px;
+    left: 57px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2500;
+}
+

@@ -1,0 +1,35 @@
+.mainStage{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url('/kytra_port_bckgrnd.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.centerStage{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    min-width: 1024px;
+    height: 100%;
+    background-color: white;
+    filter: drop-shadow(0 0 4px #4c4c4c);
+}
+
+.headLiner{
+    height: 100%;
+    width: 100%;
+    background-color: #e5eaf5;
+}
+
+.encore{
+    height: 50px;
+    width: 100%;
+    background-color: #A0D2EB;
+    filter: drop-shadow(2px 0 3px rgba(151, 151, 151, 0.31));
+}
+

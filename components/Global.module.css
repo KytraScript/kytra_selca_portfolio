@@ -1,19 +1,63 @@
-.col{
+.mainStage{
     display: flex;
     flex-direction: column;
-}
-
-.centered{
-    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url('/kytra_port_bckgrnd.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
     align-items: center;
 }
 
-.floating_nav{
-    position: fixed;
-    top: 116px;
-    left: 57px;
+.centerStage{
     display: flex;
     flex-direction: column;
-    z-index: 2500;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: drop-shadow(0 0 4px #4c4c4c);
+}
+
+.headLiner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('/backindigo.svg');
+    background-size: cover;
+}
+
+.encore{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #F0FFFF;
+    filter: drop-shadow(2px 0 3px rgba(151, 151, 151, 0.31));
+}
+
+.setList{
+    display: flex;
+    position: absolute;
+    left: 13%;
+    top: -48px;
+}
+
+.animContainer{
+    position: absolute;
+    right: 13%;
+    top: -570px;
+}
+
+.animContainer img{
+    height: 700px;
+}
+
+.frontman{
+    position: absolute;
+    width: 760px;
+    height: 480px;
+    left: 98px;
+    top: 36px;
+    background-color: #ffffff;
 }
 
