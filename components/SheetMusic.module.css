@@ -2,14 +2,26 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
-    width: 80px;
-    border-radius: 2px;
-    box-shadow: 2px 2px 7px 0px rgba(128,126,128,0.4);
+    height: 71px;
+    width: 71px;
+    border-radius: 6px;
+}
+
+.icon img{
+    height: 50px;
+    width: 50px;
+    filter: invert(1) drop-shadow(1px 1px 1px #737373);
+}
+
+.icon:hover{
+    transform: scale(1.07);
+    filter: drop-shadow(1px 1px 2px #323232);
+    cursor: pointer;
 }
 
 .iconLabel{
     display: flex;
+    margin-top: -10px;
 }
 
 .sheetMusic{
@@ -17,9 +29,12 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: "AleSans", sans-serif;
+    font-weight: 500;
     height: 120px;
     width: 100px;
     margin-right: 18px;
+    filter: drop-shadow(1px 1px 1px #5a5a5a);
 }
 
 .themeRed{
@@ -34,10 +49,28 @@
     background-color: #54bbab;
 }
 
-.themeBlue{
-    background-color: #625faa;
+.themePurple{
+    background-color: #CF8AE9;
 }
-
 .themeOrange{
     background-color: #ED776B;
+}
+
+.textRed{
+    color: #eb506f;
+}
+
+.textYellow{
+    color: #f7e900;
+}
+
+.textGreen{
+    color: #54bbab;
+}
+
+.textPurple{
+    color: #CF8AE9;
+}
+.textOrange{
+    color: #ED776B;
 }

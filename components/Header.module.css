@@ -1,4 +1,6 @@
 .ks_header {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 60px;
     position: sticky;
@@ -8,12 +10,30 @@
     filter: drop-shadow(0 2px 3px rgba(151, 151, 151, 0.31));
 }
 
+.ks_navBar{
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: flex-end;
+    font-family: "AleSans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.navLink{
+    margin-right: 36px;
+    margin-bottom: 4px;
+    text-shadow: 1px 1px 0 rgba(55, 55, 55, 0.66);
+    letter-spacing: 0.05em;
+}
+
 .logo{
     height: auto;
     width: 240px;
     overflow: hidden;
     object-fit: contain;
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 .logo img{
@@ -47,4 +67,23 @@
 
 .socialBtns{
     margin-right: 100px;
+}
+
+.textRed{
+    color: #eb506f;
+}
+
+.textYellow{
+    color: #f7e900;
+}
+
+.textGreen{
+    color: #54bbab;
+}
+
+.textPurple{
+    color: #CF8AE9;
+}
+.textOrange{
+    color: #ED776B;
 }

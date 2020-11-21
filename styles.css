@@ -14,3 +14,34 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "AleSans";
+    src: url("./public/AlegreyaSans-Light.ttf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "AleSans";
+    src: url("./public/AlegreyaSans-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "AleSans";
+    src: url("./public/AlegreyaSans-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "AleSansSC";
+    src: url("./public/AlegreyaSC-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
