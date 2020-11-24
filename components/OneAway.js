@@ -19,7 +19,7 @@ const OffByOne = () => {
                          lazyLoad(e.target);
                          toggleShowTitle(1);
                      }}/>
-                <p>Off By One!</p>
+                <p>Off By One! | 2018</p>
             </div>
             <div className={styles.stageRight}>
                 <p>
@@ -28,7 +28,7 @@ const OffByOne = () => {
                     mimicked the set of the famous One Away.
                 </p>
                 <p>
-                    Making use of MongoDB and Amazon S3 for API requests fetching car data and images,
+                    Making use of MongoDB and Amazon S3 for API requests to fetch car data and images,
                     the backend stands as the most impressive part of this game. I wish I knew then what I know now.
                 </p>
             </div>

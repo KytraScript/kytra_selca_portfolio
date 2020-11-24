@@ -5,11 +5,12 @@ import SheetMusic from '../components/SheetMusic.js';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import FloraAndFauna from '../components/FloraAndFauna.js';
 import OffByOne from '../components/OneAway.js';
+import DinoDerby from '../components/DinoDerby.js';
 
 
 export default function Index() {
 
-    const games = [<FloraAndFauna/>, <OffByOne/>];
+    const games = [<FloraAndFauna/>, <DinoDerby/>, <OffByOne/>];
     const [gameView, setGameView] = useState(0);
 
     const incrementView = () => {

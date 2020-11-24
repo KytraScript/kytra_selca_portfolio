@@ -19,11 +19,11 @@ const FloraAndFauna = () => {
                          lazyLoad(e.target);
                          toggleShowTitle(1);
                      }}/>
-                <p>Flora and Fauna</p>
+                <p>Flora and Fauna | 2019</p>
             </div>
             <div className={styles.stageRight}>
                 <p>A browser based idle farming game built in React. This was my first full-fledged project
-                   to make use of the React Context API for tracking game state. Completely hand-rolled from
+                   to make use of the <a className={`${styles.noDeco} ${styles.textGreen}`} href={'https://reactjs.org/docs/context.html'}>React Context API</a> for tracking game state. Completely hand-rolled from
                    start to finish, Flora and Fauna was equally as fun to design as it was to build.
                 </p>
                 <p>Paying homage to the pixel art games of my youth, this project features some of my
