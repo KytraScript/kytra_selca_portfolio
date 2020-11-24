@@ -1,0 +1,103 @@
+.visible p{
+    opacity: 1 !important;
+}
+
+.hitSingle{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.stageLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.stageLeft p{
+    margin-top: -40px;
+    font-family: "AleSansSC", sans-serif;
+    letter-spacing: .08em;
+    opacity: 0;
+    color: #f7e900;
+    filter: drop-shadow(1px 1px 1px #5a5a5a);
+    transition: all 1.5s ease-in-out;
+}
+
+.stageLeft img{
+    height: 340px;
+    width: 480px;
+    max-height: 340px;
+    max-width: 480px;
+    border-radius: 8px;
+    filter: drop-shadow(2px 2px 3px #323232);
+}
+
+.stageLeft img:hover{
+    cursor: pointer;
+}
+
+.stageRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.stageRight p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.themeRed{
+    background-color: #eb506f;
+}
+
+.themeYellow{
+    background-color: #f7e900;
+}
+
+.themeGreen{
+    background-color: #54bbab;
+}
+
+.themePurple{
+    background-color: #CF8AE9;
+}
+.themeOrange{
+    background-color: #ED776B;
+}
+
+.textRed{
+    color: #eb506f;
+}
+
+.textYellow{
+    color: #f7e900;
+}
+
+.textGreen{
+    color: #54bbab;
+}
+
+.textPurple{
+    color: #CF8AE9;
+}
+.textOrange{
+    color: #ED776B;
+}
+
+.noDeco{
+    text-decoration: none;
+}

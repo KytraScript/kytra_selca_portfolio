@@ -5,6 +5,7 @@
     height: 71px;
     width: 71px;
     border-radius: 6px;
+    transition: all 100ms ease-in-out;
 }
 
 .icon img{
@@ -14,7 +15,7 @@
 }
 
 .icon:hover{
-    transform: scale(1.07);
+    transform: scale(1.05) translateY(-8px);
     filter: drop-shadow(1px 1px 2px #323232);
     cursor: pointer;
 }
