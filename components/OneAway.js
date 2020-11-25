@@ -23,7 +23,10 @@ const OffByOne = () => {
             </div>
             <div className={styles.stageRight}>
                 <p>
-                    A browser based tribute to one of my favorite The Price is Right games, <a className={`${styles.textRed} ${styles.noDeco}`} href={'https://priceisright.fandom.com/wiki/One_Away'}>One Away</a>. Quite possibly my earliest attempt at a browser based game, I created this project out of a desire to work with my own hand-rolled
+                    A browser-based tribute to one of my favorite The Price is Right games,
+                    <a className={`${styles.textRed} ${styles.noDeco}`}
+                       href={'https://priceisright.fandom.com/wiki/One_Away'}> One Away</a>. Quite possibly my earliest attempt at a
+                    browser based game, I created this project out of a desire to work with my own hand-rolled
                     modern car pricing API, as well as a theme filled with brighter colors and CSS transitions that humbly
                     mimicked the set of the famous One Away.
                 </p>

@@ -23,8 +23,9 @@ const DinoDerby = () => {
             </div>
             <div className={styles.stageRight}>
                 <p>
-                    Dino Derby was a project that served two purposes. Created with <a className={`${styles.textPurple} ${styles.noDeco}`}
-                                                                                       href={'https://reactnative.dev/docs/0.60/getting-started'}>React Native and Expo</a>,
+                    Dino Derby was a project that served two purposes. Created with
+                    <a className={`${styles.textPurple} ${styles.noDeco}`}
+                       href={'https://reactnative.dev/docs/0.60/getting-started'}> React Native and Expo</a>,
                     this project allowed me to explore mobile game development and sprite animations.
                     Custom sprite animations can be quite tricky in React & React Native and this problem was one of my favorites to solve.
                 </p>
